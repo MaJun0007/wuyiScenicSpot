@@ -5,7 +5,7 @@ body {
   overflow: hidden;
 }
 body {
-  font-size: 0.65rem;
+  font-size: 26px;
   color: #666;
 }
 .page {
@@ -19,12 +19,12 @@ body {
   display: block;
 }
 .playLabel {
-  padding-left: 0.625rem;
+  padding-left: 25px;
 }
 .playLabel .playLabelTitle {
-  height: 2.25rem;
-  line-height: 2.25rem;
-  font-size: 0.725rem;
+  height: 90px;
+  line-height: 90px;
+  font-size: 29px;
 }
 .playLabel label {
   float: left;
@@ -34,14 +34,14 @@ body {
 }
 .playLabel label span {
   display: inline-block;
-  margin: 0 0.375rem 0.5rem 0;
-  width: 3.25rem;
-  height: 1.25rem;
-  line-height: 1.25rem;
+  margin: 0 15px 20px 0;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
   border: 1px solid #ccc;
-  -webkit-border-radius: 0.625rem;
-  -moz-border-radius: 0.625rem;
-  border-radius: 0.625rem;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
   text-align: center;
 }
 .playLabel label span.active {
@@ -51,7 +51,7 @@ body {
 }
 .Page_footer {
   position: absolute;
-  bottom: 0.75rem;
+  bottom: 30px;
   text-align: center;
   width: 100%;
 }
@@ -64,10 +64,10 @@ body {
 }
 .Page_footer .btn {
   padding: 0;
-  width: 15.125rem;
-  height: 1.875rem;
+  width: 605px;
+  height: 75px;
   background-color: #cacaca;
-  font-size: 0.725rem;
+  font-size: 29px;
 }
 .Page_footer .canSubmit {
   background-color: #3c9bbb;
@@ -75,7 +75,7 @@ body {
 }
 /*enterAnimate*/
 #enterAnimate {
-  padding: 2.875rem 0 0 0;
+  padding: 115px 0 0 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
@@ -83,11 +83,11 @@ body {
 }
 #enterAnimate .mainBg {
   width: 100%;
-  height: 11.5rem;
+  height: 460px;
   background: url(../images/tree.jpg) center 0 no-repeat;
   position: relative;
-  -webkit-transform: translateY(2.5rem);
-  transform: translateY(2.5rem);
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s;
   animation: enterAnimate 1s;
@@ -97,38 +97,38 @@ body {
 #enterAnimate .mainBg .cloud {
   display: inline-block;
   position: absolute;
-  top: 0.375rem;
-  left: 10.75rem;
-  width: 1.375rem;
-  height: 1.05rem;
+  top: 15px;
+  left: 430px;
+  width: 55px;
+  height: 42px;
   background: url(../images/cloud.png) 0 0 no-repeat;
-  -webkit-background-size: 1.375rem 1.05rem;
-  background-size: 1.375rem 1.05rem;
+  -webkit-background-size: 55px 42px;
+  background-size: 55px 42px;
   -webkit-animation: cloud 2.5s  infinite alternate linear;
   animation: cloud 2.5s infinite alternate linear;
 }
 #enterAnimate .mainBg .cloud:nth-of-type(1) {
-  width: 2.375rem;
-  height: 1.5rem;
-  -webkit-background-size: 2.375rem 1.5rem;
-  top: 1.875rem;
-  left: 2.25rem;
+  width: 95px;
+  height: 60px;
+  -webkit-background-size: 95px 60px;
+  top: 75px;
+  left: 90px;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 #enterAnimate .mainBg .cloud:nth-of-type(2) {
-  top: 3.5rem;
-  left: 10rem;
+  top: 140px;
+  left: 400px;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 #enterAnimate .wuyiPlay {
   width: 100%;
-  height: 1.875rem;
+  height: 75px;
   background: url(../images/title.png) 0 0 no-repeat;
   position: relative;
-  -webkit-transform: translateY(1.25rem);
-  transform: translateY(1.25rem);
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 0.3s;
   animation: enterAnimate 1s 0.3s;
@@ -138,10 +138,10 @@ body {
 #enterAnimate .wuyiPlay .shack {
   display: inline-block;
   position: relative;
-  top: -1rem;
-  left: 12.75rem;
-  width: 0.75rem;
-  height: 0.775rem;
+  top: -40px;
+  left: 510px;
+  width: 30px;
+  height: 31px;
   background: url(../images/shake.png) 0 0 no-repeat;
   -webkit-transform-origin: left bottom;
   transform-origin: left bottom;
@@ -149,12 +149,12 @@ body {
   animation: shack 1s 0.7s infinite alternate;
 }
 #enterAnimate .cctvWelcome {
-  margin-top: 0.625rem;
+  margin-top: 25px;
   width: 100%;
-  height: 1rem;
+  height: 40px;
   background: url(../images/title2.png) 0 0 no-repeat;
-  -webkit-transform: translateY(0.625rem);
-  transform: translateY(0.625rem);
+  -webkit-transform: translateY(25px);
+  transform: translateY(25px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 0.7s;
   animation: enterAnimate 1s 0.7s;
@@ -163,9 +163,9 @@ body {
 }
 #enterAnimate .Page_footer {
   position: absolute;
-  top: 25.5rem;
-  -webkit-transform: translateY(0.375rem);
-  transform: translateY(0.375rem);
+  top: 1020px;
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 1s;
   animation: enterAnimate 1s 1s;
@@ -178,24 +178,24 @@ body {
 }
 @keyframes enterAnimate {
   100% {
-    transform: translateY(0rem);
+    transform: translateY(0px);
     opacity: 1;
   }
 }
 @-webkit-keyframes enterAnimate {
   100% {
-    -webkit-transform: translateY(0rem);
+    -webkit-transform: translateY(0px);
     opacity: 1;
   }
 }
 @keyframes cloud {
   100% {
-    transform: translateX(-1.25rem);
+    transform: translateX(-50px);
   }
 }
 @-webkit-keyframes cloud {
   100% {
-    -webkit-transform: translateX(-1.25rem);
+    -webkit-transform: translateX(-50px);
   }
 }
 @-webkit-keyframes shack {
@@ -270,7 +270,7 @@ body {
 }
 /*reSubmitpage*/
 #reSubmitpage {
-  padding: 2.875rem 0 0 0;
+  padding: 115px 0 0 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
@@ -278,11 +278,11 @@ body {
 }
 #reSubmitpage .mainBg {
   width: 100%;
-  height: 11.5rem;
+  height: 460px;
   background: url(../images/tree.jpg) center 0 no-repeat;
   position: relative;
-  -webkit-transform: translateY(2.5rem);
-  transform: translateY(2.5rem);
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s;
   animation: enterAnimate 1s;
@@ -292,38 +292,38 @@ body {
 #reSubmitpage .mainBg .cloud {
   display: inline-block;
   position: absolute;
-  top: 0.375rem;
-  left: 10.75rem;
-  width: 1.375rem;
-  height: 1.05rem;
+  top: 15px;
+  left: 430px;
+  width: 55px;
+  height: 42px;
   background: url(../images/cloud.png) 0 0 no-repeat;
-  -webkit-background-size: 1.375rem 1.05rem;
-  background-size: 1.375rem 1.05rem;
+  -webkit-background-size: 55px 42px;
+  background-size: 55px 42px;
   -webkit-animation: cloud 2.5s  infinite alternate linear;
   animation: cloud 2.5s infinite alternate linear;
 }
 #reSubmitpage .mainBg .cloud:nth-of-type(1) {
-  width: 2.375rem;
-  height: 1.5rem;
-  -webkit-background-size: 2.375rem 1.5rem;
-  top: 1.875rem;
-  left: 2.25rem;
+  width: 95px;
+  height: 60px;
+  -webkit-background-size: 95px 60px;
+  top: 75px;
+  left: 90px;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 #reSubmitpage .mainBg .cloud:nth-of-type(2) {
-  top: 3.5rem;
-  left: 10rem;
+  top: 140px;
+  left: 400px;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
 #reSubmitpage .wuyiPlay {
   width: 100%;
-  height: 1.875rem;
+  height: 75px;
   background: url(../images/title.png) 0 0 no-repeat;
   position: relative;
-  -webkit-transform: translateY(1.25rem);
-  transform: translateY(1.25rem);
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 0.3s;
   animation: enterAnimate 1s 0.3s;
@@ -333,10 +333,10 @@ body {
 #reSubmitpage .wuyiPlay .shack {
   display: inline-block;
   position: relative;
-  top: -1rem;
-  left: 12.75rem;
-  width: 0.75rem;
-  height: 0.775rem;
+  top: -40px;
+  left: 510px;
+  width: 30px;
+  height: 31px;
   background: url(../images/shake.png) 0 0 no-repeat;
   -webkit-transform-origin: left bottom;
   transform-origin: left bottom;
@@ -344,12 +344,12 @@ body {
   animation: shack 1s 0.7s infinite alternate;
 }
 #reSubmitpage .cctvWelcome {
-  margin-top: 0.625rem;
+  margin-top: 25px;
   width: 100%;
-  height: 1rem;
+  height: 40px;
   background: url(../images/title2.png) 0 0 no-repeat;
-  -webkit-transform: translateY(0.625rem);
-  transform: translateY(0.625rem);
+  -webkit-transform: translateY(25px);
+  transform: translateY(25px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 0.7s;
   animation: enterAnimate 1s 0.7s;
@@ -358,9 +358,9 @@ body {
 }
 #reSubmitpage .Page_footer {
   position: absolute;
-  top: 25.5rem;
-  -webkit-transform: translateY(0.375rem);
-  transform: translateY(0.375rem);
+  top: 1020px;
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
   opacity: 0;
   -webkit-animation: enterAnimate 1s 1s;
   animation: enterAnimate 1s 1s;
@@ -379,7 +379,7 @@ body {
 }
 #indexPage .banner {
   width: 100%;
-  height: 8.5rem;
+  height: 340px;
   overflow: hidden;
   position: relative;
 }
@@ -388,7 +388,7 @@ body {
 }
 #indexPage .banner .bannerList li {
   float: left;
-  height: 8.5rem;
+  height: 340px;
   font-size: 0;
 }
 #indexPage .banner .bannerList li a {
@@ -403,19 +403,19 @@ body {
 }
 #indexPage .banner .bannerTips {
   position: absolute;
-  right: 0.625rem;
-  bottom: 0.375rem;
+  right: 25px;
+  bottom: 15px;
   overflow: hidden;
   z-index: 10;
 }
 #indexPage .banner .bannerTips li {
   float: left;
-  margin-right: 0.375rem;
-  width: 0.5rem;
-  height: 0.5rem;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  border-radius: 0.25rem;
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   background-color: #ccc;
 }
 #indexPage .banner .bannerTips li.active {
@@ -423,13 +423,13 @@ body {
 }
 #indexPage .playName {
   position: absolute;
-  top: 6.25rem;
+  top: 250px;
   left: 0;
-  padding-left: 0.625rem;
+  padding-left: 25px;
   width: 100%;
-  height: 2.25rem;
-  line-height: 3.25rem;
-  font-size: 0.725rem;
+  height: 90px;
+  line-height: 130px;
+  font-size: 29px;
   color: #fff;
   background: linear-gradient(bottom, #000000, rgba(0, 0, 0, 0.7) 20%, rgba(0, 0, 0, 0));
   background: -webkit-linear-gradient(bottom, #000000, rgba(0, 0, 0, 0.7) 20%, rgba(0, 0, 0, 0));
@@ -437,10 +437,10 @@ body {
 #indexPage .topNewsPage {
   text-align: center;
   position: absolute;
-  width: 2.5rem;
-  height: 2.5rem;
-  top: 0.5rem;
-  right: 0.5rem;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  right: 20px;
   color: #fff;
 }
 #indexPage .topNewsPage a {
@@ -448,11 +448,11 @@ body {
   top: 0;
   left: 0;
   display: inline-block;
-  width: 2.5rem;
-  height: 2.5rem;
-  -webkit-border-radius: 1.25rem;
-  -moz-border-radius: 1.25rem;
-  border-radius: 1.25rem;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   background-color: rgba(230, 0, 18, 0.4);
   -webkit-animation: topNewsPage 0.8s infinite alternate;
 }
@@ -469,12 +469,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
   width: 100%;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 30px;
   z-index: 30;
 }
 @-webkit-keyframes topNewsPage {
@@ -495,23 +495,23 @@ body {
 }
 #indexPage .playScore {
   width: 100%;
-  height: 7rem;
+  height: 280px;
   border-bottom: 1px solid #e5e5e5;
-  padding-left: 0.625rem;
+  padding-left: 25px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 #indexPage .playScore .playScoreTitle {
-  height: 2.25rem;
-  line-height: 2.25rem;
-  font-size: 0.725rem;
+  height: 90px;
+  line-height: 90px;
+  font-size: 29px;
 }
 #indexPage .playScore .playScoreItem {
-  height: 0.875rem;
+  height: 35px;
 }
 #indexPage .playScore .playScoreItem .playScoreItemList li {
-  height: 1.5rem;
+  height: 60px;
   overflow: hidden;
 }
 #indexPage .playScore .playScoreItem .playScoreItemList li .playScoreItem_title {
@@ -520,16 +520,16 @@ body {
 #indexPage .playScore .playScoreItem .playScoreItemList li .starts {
   float: left;
   font-size: 0;
-  margin-left: 2rem;
+  margin-left: 80px;
 }
 #indexPage .playScore .playScoreItem .playScoreItemList li .starts .start {
   display: inline-block;
-  margin-right: 0.75rem;
-  width: 1rem;
-  height: 0.875rem;
-  line-height: 0.875rem;
+  margin-right: 30px;
+  width: 40px;
+  height: 35px;
+  line-height: 35px;
   vertical-align: bottom;
-  background: url(../images/star.png) -0.95rem 0 no-repeat;
+  background: url(../images/star.png) -38px 0 no-repeat;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -558,25 +558,25 @@ body {
 }
 #newsPage .newsPageHeader {
   width: 100%;
-  height: 8.5rem;
+  height: 340px;
   background: url(../images/news.png) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 #newsPage .newsTitle {
-  padding-left: 0.875rem;
-  height: 2.625rem;
-  line-height: 2.625rem;
-  font-size: 0.75rem;
+  padding-left: 35px;
+  height: 105px;
+  line-height: 105px;
+  font-size: 30px;
 }
 #newsPage div {
   float: left;
-  width: 8rem;
-  height: 4.625rem;
+  width: 320px;
+  height: 185px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #fff center 1rem no-repeat;
+  background: #fff center 40px no-repeat;
 }
 #newsPage div input {
   display: none;
@@ -584,8 +584,8 @@ body {
 #newsPage div span {
   display: inline-block;
   width: 100%;
-  line-height: 6.75rem;
-  font-size: 0.75rem;
+  line-height: 270px;
+  font-size: 30px;
   text-align: center;
   vertical-align: bottom;
 }
@@ -603,25 +603,25 @@ body {
 #formPage .playLabel {
   color: #fff;
   width: 100%;
-  height: 9.75rem;
+  height: 390px;
   background: url(../images/formBg.png) 0 0 no-repeat;
 }
 #formPage textarea {
   resize: none;
   display: block;
-  margin-top: 0.75rem;
-  padding: 0.5rem 0.875rem;
+  margin-top: 30px;
+  padding: 20px 35px;
   width: 100%;
-  height: 6.75rem;
+  height: 270px;
   background-color: #fff;
   border: none;
-  font-size: 0.75rem;
+  font-size: 30px;
 }
 #formPage input[type="tel"] {
   display: block;
-  margin-top: 0.75rem;
-  padding: 0 0.875rem;
+  margin-top: 30px;
+  padding: 0 35px;
   width: 100%;
-  height: 1.75rem;
-  font-size: 0.75rem;
+  height: 70px;
+  font-size: 30px;
 }
