@@ -537,7 +537,7 @@ body {
   transition: 0.3s;
 }
 #indexPage .playScore .playScoreItem .playScoreItemList li .starts .getStart {
-  background-position: 0 0;
+  background-position: 1px 0;
 }
 .maskThanks {
   position: absolute;
