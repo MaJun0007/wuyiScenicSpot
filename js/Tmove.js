@@ -1,5 +1,5 @@
 function Tmove(ele,isBorder,isCircel,isMovingSwitch,isAuto,isX,isY,isBar,isCallBack){
-    document.addEventListener("touchend",function (e){
+    document.addEventListener("touchstart",function (e){
         e.preventDefault();
     })
     var touchStartPointX=0;
