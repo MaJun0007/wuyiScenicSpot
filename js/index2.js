@@ -63,7 +63,6 @@
                     /*！！！
                      不能使用checked=true，重新评分时状态会重置
                      必须使用setAttribute("checked","checked")，保证重新评分时状态不会重置*/
-                    console.log(1);
                     if(this.previousElementSibling.getAttribute("checked")){
                         this.previousElementSibling.removeAttribute("checked");
                         this.className="";
@@ -253,6 +252,7 @@
                     newsPage.className = "page";
                     formpage();
                 } else {
+                    warmingInfoShow("请放入图片!!!∑(ﾟДﾟノ)ノ", newsPage);
                     return;
                 }
             })

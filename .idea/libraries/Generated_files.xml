@@ -2,16 +2,16 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/js/index2.min.js" />
-        <item url="file://$PROJECT_DIR$/js/index.min.js" />
         <item url="file://$PROJECT_DIR$/js/Tmove.min.js" />
+        <item url="file://$PROJECT_DIR$/js/index.min.js" />
+        <item url="file://$PROJECT_DIR$/js/ss.min.js" />
         <item url="file://$PROJECT_DIR$/js/index2.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/js/index2.min.js" />
-      <root url="file://$PROJECT_DIR$/js/index.min.js" />
       <root url="file://$PROJECT_DIR$/js/Tmove.min.js" />
+      <root url="file://$PROJECT_DIR$/js/index.min.js" />
+      <root url="file://$PROJECT_DIR$/js/ss.min.js" />
       <root url="file://$PROJECT_DIR$/js/index2.min.js" />
     </CLASSES>
     <SOURCES />
