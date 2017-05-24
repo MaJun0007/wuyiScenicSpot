@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        var pixclPatio = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixclPatio+',minimum-scale='+pixclPatio+',maximum-scale='+pixclPatio+',user-scalable=no" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 16 + 'px';
+    </script>
+</head>
+<body>
+<section class="pageShow" id="enterAnimate">
+    <main class="mainAnimate">
+        <div class="mainBg">
+            <span class="cloud"></span>
+            <span class="cloud"></span>
+            <span class="cloud"></span>
+        </div>
+        <p class="wuyiPlay">
+            <span class="shack"></span>
+        </p>
+        <p class="cctvWelcome"></p>
+    </main>
+    <footer class="Page_footer">
+        <img src="images/logo.png" alt="">
+    </footer>
+</section>
+<section class="page" id="reSubmitpage">
+    <main class="mainAnimate">
+        <div class="mainBg">
+            <span class="cloud"></span>
+            <span class="cloud"></span>
+            <span class="cloud"></span>
+        </div>
+        <p class="wuyiPlay">
+            <span class="shack"></span>
+        </p>
+        <p class="cctvWelcome"></p>
+    </main>
+    <footer class="Page_footer">
+        <img src="images/logo.png" alt="">
+    </footer>
+</section>
+<section class="page" id="indexPage">
+    <div class="banner">
+        <ul class="bannerList">
+            <li><a href=""><img src="images/1.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/2.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/3.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/4.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/5.jpg" alt=""></a></li>
+        </ul>
+        <ul class="bannerTips">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <h2 class="playName">成都九寨沟景区</h2>
+    <div class="topNewsPage">
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+        <p>新闻</p>
+    </div>
+    <div class="playScore">
+        <h3 class="playScoreTitle">给景区评分</h3>
+        <div class="playScoreItem">
+            <ul class="playScoreItemList">
+                <li>
+                    <p class="playScoreItem_title">综合印象</p>
+                    <ul class="starts">
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <!--用于计分-->
+                        <input type="hidden" value="0" class="scores"/>
+                    </ul>
+                </li>
+                <li>
+                    <p class="playScoreItem_title">服务指数</p>
+                    <ul class="starts">
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <input type="hidden" value="0" class="scores"/>
+                    </ul>
+                </li>
+                <li>
+                    <p class="playScoreItem_title">消费指数</p>
+                    <ul class="starts">
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <li class="start"></li>
+                        <input type="hidden" value="0" class="scores"/>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="playLabel">
+        <h3 class="playLabelTitle">给景区添加标签</h3>
+        <label>
+            <input type="radio" name="tags" value="服务好" class="playLabeItem" />
+            <span>服务好</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="景色赞" class="playLabeItem" />
+            <span>景色赞</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="千篇一律" class="playLabeItem" />
+            <span>千篇一律</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="看人海"  class="playLabeItem"/>
+            <span>看人海</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="挤爆了" class="playLabeItem" />
+            <span>挤爆了</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="服务好" class="playLabeItem" />
+            <span>服务好</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="景色赞" class="playLabeItem" />
+            <span>景色赞</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="千篇一律" class="playLabeItem" />
+            <span>千篇一律</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="看人海" class="playLabeItem" />
+            <span>看人海</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="挤爆了" class="playLabeItem" />
+            <span>挤爆了</span>
+        </label>
+    </div>
+    <footer class="Page_footer">
+        <p class="warmingInfo"></p>
+        <input type="button" class="btn" value="提交">
+    </footer>
+</section>
+<section class="maskThanks"></section>
+<section class="page" id="newsPage">
+    <header class="newsPageHeader"></header>
+    <h3 class="newsTitle">请上传新闻或突发事件线索</h3>
+    <section class="inputFileZoom">
+        <div class="photo">
+            <input type="file">
+            <span>导入照片</span>
+        </div>
+        <div class="video">
+            <input type="file">
+            <span>导入视频</span>
+        </div>
+    </section>
+    <footer class="Page_footer">
+        <p class="warmingInfo"></p>
+        <input type="button" class="btn" value="提交">
+    </footer>
+</section>
+<section class="page" id="formPage">
+    <div class="playLabel">
+        <h3 class="playLabelTitle">给视频添加标签</h3>
+        <label>
+            <input type="radio" name="tags" value="服务好" class="playLabeItem"/>
+            <span>服务好</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="景色赞" class="playLabeItem" />
+            <span>景色赞</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="千篇一律" class="playLabeItem" />
+            <span>千篇一律</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="看人海"  class="playLabeItem"/>
+            <span>看人海</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="挤爆了" class="playLabeItem" />
+            <span>挤爆了</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="服务好" class="playLabeItem" />
+            <span>服务好</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="景色赞" class="playLabeItem" />
+            <span>景色赞</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="千篇一律" class="playLabeItem" />
+            <span>千篇一律</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="看人海" class="playLabeItem" />
+            <span>看人海</span>
+        </label>
+        <label>
+            <input type="radio" name="tags" value="挤爆了" class="playLabeItem" />
+            <span>挤爆了</span>
+        </label>
+    </div>
+    <textarea placeholder="选填：说些什么吧..." rows="5" ></textarea>
+    <input type="tel" placeholder="选填：手机号码">
+    <footer class="Page_footer">
+        <p class="warmingInfo"></p>
+        <input type="button" class="btn" value="上传">
+    </footer>
+</section>\
+<script src="js/transform.min.js"></script>
+<script src="js/Tmove.js"></script>
+<script src="js/index2.js"></script>
+</body>
+</html>
